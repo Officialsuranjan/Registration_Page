@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <TITLE>Registration Page</TITLE>
+        <style>
+            .mainitems{
+                color:rgb(255, 196, 0);
+                background-color:rgb(72, 180, 200); 
+                box-shadow: 0 0 100px rgb(59, 173, 190);
+                height: auto;
+                width: auto;
+                border-radius: 20px;
+                text-align:center;
+                justify-content: center;
+                align-items: center;
+            }
+            body{
+                background-color:rgba(0, 193, 158, 0.591);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="mainitems">
+            <h2> Form For Registration </h2>
+            <form>
+                <label for="fname"> First Name:</label>
+                <input type="text"id="fname"name="fname">
+                <label for="lname"> Last Name:</label>
+                <input type="text"id="lname"name="lname"><br><br>
+                <label for="Father's First"> Father's First Name:</label>
+                <input type="text"id="Father's First name"name="Father's First name">
+                <label for="Father's Last Name"> Father's Last Name:</label>
+                <input type="text"id="Father's Last name"name="Father's Last name"><br><br>
+                <label for="age"> Age:</label>
+                <input type="number"id="age"name="age">
+                <label for="Date Of Birth"> Date Of Birth:</label>
+                <input type="date"id="Date Of Birth"name="Date Of Birth"><br><br>
+                <label for="Village"> Village:</label>
+                <input type="text"id="Village"name="Village">
+                <label for="Post"> Post:</label>
+                <input type="text"id="Post"name="Post"><br><br>
+                <label for="District">District:</label>
+                <input type="text"id="District"name="District">
+                <label for="Police Station">Police Station:</label>
+                <input type="text"id="Police Station"name="Police Station"><br><br>
+                <label for="State">State:</label>
+                <input type="text"id="State"name="State">
+                <label for="Pin">Pin:</label>
+                <input type="text"id="Pin"name="Pin"><br><br>
+                <label for="Gender"> Gender:
+                    <select id="Gender" name="Gender">
+                    <option value="MALE"> MALE</option>
+                    <option value="FEMALE"> FEMALE</option>
+                    <option value="Others"> Others</option>
+                    </select>
+                    </label>
+                    <label for="Category"> Category:
+                        <select id="Category" name="Category">
+                        <option value="GENERAL"> GENERAL</option>
+                        <option value="SC"> SC</option>
+                        <option value="ST"> ST</option>
+                        <option value="OBC"> OBC</option>
+                        </select>
+                        </label>
+                    <label for="trade"> Choose a Trade :
+                      <select id="trade" name="trade">
+                      <option value="IT">IT</option>
+                      <option value="WELDER">WELDER</option>
+                      <option value="FITTER">FITTER</option>
+                      <option value="CIVIL">CIVIL</option>
+                      </select>
+                    </label>
+                    <br><br>
+                    <label for="Mobile Number">Mobile Number:</label>
+                    <input type="text"id="Mobile Number"name="Mobile Number">
+                    <label for="E-mail">E-mail:</label>
+                    <input type="E-mail"id="E-mail"name="E-mail"><br><br>
+                    <input type="submit"  value="submit"> 
+            </form 
+        </div>
+    </body>
+</html>
